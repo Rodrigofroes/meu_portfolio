@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="shortcut icon" href="./favicon/favicon.ico">
+  <link rel="" href="./favicon/site.webmanifest">
+  <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+  <title>Portfólio</title>
+</head>
+
+<body>
+  <header class="header-menu">
+    <nav class="nav-bar">
+      <div class="container">
+        <div class="logo">
+          <figure>
+            <img src="./svg/logo-branco.png" width="60" alt="">
+          </figure>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="section-conteudo">
+    <div class="container">
+      <div class="conteudo">
+        <div class="conteudo-sobre">
+          <div class="container-img">
+            <figure>
+              <div class="ball-of-light"></div>
+              <img id="shadow-img" src="./img/g" width="650" id="center-img" alt="">
+            </figure>
+          </div>
+          <div id="app"></div>
+          <div class="conteudo-text">
+            <p id="card-title">Desenvolvedor Web <i class="fa-solid fa-globe" style="color: #ffffff;"></i></p>
+            <div class="redes-sociais">
+              <a class="icon-face" href="https://www.facebook.com/rodrigo.oliveira.338658" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="icon-insta" href="https://www.instagram.com/rodrigo.oliveira.338658/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="icon-in" href="https://www.linkedin.com/in/rodrigo-oliveira-9b0b3a1b2/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card-sobre">
+    <div class="card-title">
+      <h1>Sobre mim</h1>
+      <div class="btn">
+        <a href="" onclick="selectsobre(event)">Sobre</a>
+        <a href="" onclick="selectskill(event)">Skill</a>
+      </div>
+      <div class="separador"></div>
+      <div class="card-fixed" id="card-sobre">
+        <span>
+          Meu nome é Rodrigo de Oliveira, tenho 20 anos e estou atualmente cursando Análise e Desenvolvimento de
+          Sistemas. Sou natural de Presidente Prudente, uma cidade encantadora no interior de São Paulo. Gostaria de
+          compartilhar com você um pouco da minha história e meu interesse em uma vaga no ramo da programação.<br>
+          Desde muito jovem, sempre fui apaixonado por tecnologia. Ao longo do tempo, essa paixão se transformou em um
+          interesse específico pela programação. Através de minha determinação em aprender e explorar, adquiri
+          conhecimentos sólidos em HTML, CSS e JavaScript. Essas linguagens me permitiram criar páginas web interativas
+          e responsivas, colocando em prática minha criatividade e habilidades de desenvolvimento de interfaces
+          amigáveis e funcionais.<br>
+          Durante minha trajetória acadêmica, tenho me dedicado intensamente a ampliar minha base de conhecimento.
+          Atualmente, estou focado em estudar C++ e Python, duas linguagens versáteis e poderosas. Reconheço que dominar
+          uma variedade de linguagens de programação é essencial para enfrentar desafios mais complexos e desenvolver
+          soluções inovadoras. Estou entusiasmado em aplicar esses conhecimentos em um ambiente de trabalho,
+          contribuindo para projetos desafiadores e fazendo a diferença.<br>
+          A graduação em Análise e Desenvolvimento de Sistemas tem me proporcionado uma visão mais ampla do ciclo de
+          vida do desenvolvimento de software. Tenho adquirido habilidades em análise de requisitos, design,
+          implementação e testes. Essa base sólida me permite compreender melhor os desafios envolvidos em um projeto e
+          colaborar efetivamente em equipe.<br>
+          Sou uma pessoa comprometida e apaixonada por tecnologia. Sempre busco aprender e me atualizar, mantendo-me
+          informado sobre as últimas tendências e melhores práticas da indústria. Tenho facilidade em trabalhar em
+          equipe, pois acredito que o compartilhamento de conhecimento e a colaboração são fundamentais para alcançar
+          resultados excepcionais.<br>
+          Minha habilidade em resolver problemas e minha abordagem proativa diante de desafios técnicos são
+          características que me impulsionam a enfrentar qualquer obstáculo que surja no caminho. Estou confiante de que
+          minha combinação de conhecimentos em HTML, CSS, JavaScript, C++ e Python, aliada à minha formação em Análise e
+          Desenvolvimento de Sistemas, me torna um candidato ideal para uma vaga no campo da programação.<br>
+          Agradeço a oportunidade de compartilhar minha história e meu entusiasmo em fazer parte de sua equipe. Estou
+          disponível para participar de qualquer processo seletivo ou entrevista que seja necessário. Espero ter a
+          chance de mostrar como minhas habilidades e conhecimentos podem agregar valor à sua empresa.<br>
+        </span>
+      </div>
+      <div class="conteudo-skill" id="card-skill" style="display: none;">
+        <div class="conteudo-todo">
+          <div class="skill">
+            <h1 style="color: chartreuse;">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Comunicação</span>
+            </div>
+          </div>
+          <div class="skill">
+            <h1 style="color: rgb(226, 147, 44);">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Habilidades</span>
+            </div>
+          </div>
+          <div class="skill">
+            <h1 style="color: rgb(160, 9, 47);">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Habilidades</span>
+            </div>
+          </div>
+        </div>
+        <div class="conteudo-todo">
+          <div class="skill">
+            <h1 style="color: chartreuse;">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Comunicação</span>
+            </div>
+          </div>
+          <div class="skill">
+            <h1 style="color: rgb(226, 147, 44);">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Habilidades</span>
+            </div>
+          </div>
+          <div class="skill">
+            <h1 style="color: rgb(160, 9, 47);">100%</h1>
+            <div class="linha"></div>
+            <div class="skill-text">
+              <span>Habilidades</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <script src="./js/main.js" defer></script>
+</body>
+
+</html>

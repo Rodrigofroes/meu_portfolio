@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: #16144e;
+  scroll-behavior: auto;
+}
+
+.header-menu
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #16144e;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo
+{
+  cursor: pointer;
+}
+
+.menu-items {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  gap: 70px;
+}
+
+.menu-items a {
+  font-size: 20px;
+  color: white;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: 1.3s;
+  color: orangered;
+}
+
+#app {
+  font-size: 65px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -3px;
+  display: block;
+}
+
+.conteudo {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  color: white;
+  margin-top: 280px;
+  margin-left: 100px;
+}
+
+.redes-sociais a {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.redes-sociais i 
+{
+  font-size: 25px;
+}
+
+#card-title
+{
+  font-size: 25px;
+}
+
+.ball-of-light 
+{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 20%, rgba(255, 255, 255, 0) 60%);
+  z-index: -1;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon-insta:hover {
+  background-color: white;
+  color: #C13584;
+}
+
+.icon-face:hover {
+  background-color: white;
+  color: blue;
+}
+
+.icon-in:hover {
+  background-color: white;
+  color: blue;
+}
+
+.card-title h1
+{
+  font-size: 60px;
+}
+
+.card-sobre
+{
+  color: white;
+  margin-top: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.btn
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn a
+{
+  font-size: 20px;
+  color: white;
+  border: 1px none white;
+  padding: 10px;
+}
+
+.btn a:hover
+{
+  background-color: white;
+  color: orangered;
+}
+
+.separador
+{
+  border: 1px solid  white
+}
+
+.card-fixed
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-fixed span
+{
+  text-align: justify;
+  white-space: pre-line;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: -1px;
+
+}
+
+.container-img
+{
+  position: absolute;
+  left: 47%;
+  top: 5%;
+  z-index: 1;
+}
+
+.conteudo-todo
+{
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  margin-top: 10px;
+}
+
+.skill h1
+{
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.linha
+{
+  border: 2px solid white;
+}
+
+.skill-text span
+{
+  font-size: 30px;
+  font-weight: 800;
+
+}
+
+
+
+

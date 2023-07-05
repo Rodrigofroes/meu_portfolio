@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  
+  .container-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+  }
+  
+  .container-conteudo li {
+    font-size: 4vw;
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    border-bottom: 0.2em solid #16144e;
+  }
+  
+  .conteudo-skill span {
+    font-size: 2vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+  }
+  
+  #skill1 {
+    color: #443eee;
+    border-bottom: 0.2em solid #16144e;
+  }
+  
